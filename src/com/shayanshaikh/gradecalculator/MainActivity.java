@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
+	int x = 85;
 	
 	EditText totalGrade = (EditText) findViewById(R.id.editText1);
 	String total = totalGrade.getText().toString();
@@ -44,5 +45,5 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
 	}
-
+	
 }
