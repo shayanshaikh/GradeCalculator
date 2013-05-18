@@ -13,6 +13,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="53dp"
         android:ems="10"
+        android:inputType="numberDecimal"
         android:width="80dp" />
 
     <EditText
@@ -24,6 +25,7 @@
         android:layout_marginLeft="60dp"
         android:layout_marginTop="121dp"
         android:ems="10"
+        android:inputType="numberDecimal"
         android:width="80dp" />
 
     <Button
@@ -53,7 +55,7 @@
         android:layout_below="@+id/editText1"
         android:layout_marginTop="36dp"
         android:height="40dp"
-        android:text="To get a 90 you need a "
+        android:text="To get an A you need a"
         android:textSize="15sp"
         android:width="80dp" />
 
@@ -65,7 +67,7 @@
         android:layout_alignLeft="@+id/textView4"
         android:layout_marginBottom="77dp"
         android:height="40dp"
-        android:text="To get a 60 you need a"
+        android:text="To get a D you need a"
         android:width="80dp" />
 
     <TextView
@@ -75,7 +77,7 @@
         android:layout_alignLeft="@+id/textView3"
         android:layout_centerVertical="true"
         android:height="40dp"
-        android:text="To get a 80 you need a"
+        android:text="To get a B you need a"
         android:width="80dp" />
 
     <TextView
@@ -86,7 +88,7 @@
         android:layout_alignLeft="@+id/textView6"
         android:layout_marginBottom="44dp"
         android:height="40dp"
-        android:text="To get a 70 you need a"
+        android:text="To get a C you need a"
         android:width="80dp" />
 
     <TextView
